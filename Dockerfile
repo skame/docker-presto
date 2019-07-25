@@ -1,6 +1,6 @@
 FROM openjdk:8-jre
 
-ENV PRESTO_VERSION 314
+ENV PRESTO_VERSION 315
 
 RUN apt-get update && \
   apt-get install -yf python && \
